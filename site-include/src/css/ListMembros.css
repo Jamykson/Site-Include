@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+
+.ListMembros{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 5em;
+    margin: 50px 0;
+}
+
+.ListMembros .titulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #003057;
+    font-size: 26px;
+}
+
+.ListMembros .carrosel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.ListMembros .carrosel button{
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.ListMembros .carrosel button img{
+    width: 100%;
+    height: 100%;
+}
+.ListMembros .carrosel button:first-child img{
+    transform: rotate(180deg);
+}
+.ListMembros .carrosel .box-membros{
+    display: flex;
+    gap: 15px;
+    width: 1045px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.ListMembros .carrosel .box-membros::-webkit-scrollbar{
+    display: none;
+}
+
+@media(max-width: 1310px) {
+    .ListMembros .carrosel .box-membros {
+        width: 780px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .ListMembros {
+        height: 550px;
+    }
+    .ListMembros .carrosel .box-membros {
+        width: 750px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros{
+        width: 240px;
+        height: 345px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .ListMembros .titulo{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .ListMembros {
+        height: 500px;
+        padding: 0 4em;
+    }
+    .ListMembros .titulo {
+        font-size: 22px;
+    }
+    .ListMembros .carrosel .box-membros {
+        width: 675px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros {
+        width: 215px;
+        height: 320px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .foto {
+        border-radius: 20px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .membro .nome {
+        font-size: 16px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .membro .cargo {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 895px) {
+    .ListMembros .carrosel {
+        gap: 15px;
+    }
+    .ListMembros .carrosel button {
+        width: 15px;
+        height: 27px;
+    }
+    .ListMembros .carrosel .box-membros {
+        width: 415px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros {
+        width: 200px;
+        height: 305px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .foto {
+        border-radius: 15px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .membro .nome {
+        font-size: 14px;
+    }
+    .ListMembros .carrosel .box-membros .CardMembros .membro .cargo {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 768px){
+    .ListMembros .titulo {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width: 605px){
+    .ListMembros .carrosel .box-membros {
+        width: 200px;
+    }
+}
+
+@media(max-width: 550px){
+    .ListMembros {
+        padding: 0 40px;
+    }
+    .ListMembros .titulo {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 450px){
+    .ListMembros .titulo {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 370px){
+    .ListMembros .titulo {
+        font-size: 13px;
+    }
+}

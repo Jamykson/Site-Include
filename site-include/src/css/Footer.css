@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.Footer{
+    background-color: #001D34;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.Footer .main{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.Footer .main .box-logo{
+    width: 300px;
+}
+
+.Footer .main .box-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.Footer .main .box-contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.Footer .main .box-contatos .box-redes{
+    display: flex;
+    gap: 15px;
+}
+
+.Footer .main .box-contatos .box-redes .btn-redes{
+    background-color: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.Footer .main .box-contatos .box-redes .btn-redes img{
+    width: 100%;
+    height: 100%;
+}
+
+.Footer .main .box-contatos .contatos{
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+}
+
+.Footer .main .box-contatos .contatos h3{
+    font-size: 24px;
+}
+
+.Footer .main .box-contatos .contatos p{
+    font-size: 20px;
+}
+
+.Footer .cr{
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.Footer .cr img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 1200px) {
+    .Footer {
+        height: 450px;
+    }
+    .Footer .main .box-logo {
+        width: 275px;
+    }
+    .Footer .main .box-contatos .box-redes .btn-redes {
+        width: 30px;
+        height: 30px;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 22px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .Footer {
+        height: 400px;
+    }
+    .Footer .main .box-logo {
+        width: 250px;
+    }
+    .Footer .main .box-contatos .box-redes .btn-redes {
+        width: 25px;
+        height: 25px;
+    }
+    .Footer .main .box-contatos .contatos {
+        gap: 30px;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 20px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .Footer {
+        height: 325px;
+    }
+    .Footer .main {
+        margin-top: 25px;
+    }
+    .Footer .main .box-logo {
+        width: 225px;
+    }
+    .Footer .main .box-contatos {
+        gap: 20px;
+    }
+    .Footer .main .box-contatos .box-redes .btn-redes {
+        width: 20px;
+        height: 20px;
+    }
+    .Footer .main .box-contatos .contatos {
+        gap: 20px;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 16px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 900px) {
+    .Footer .main .box-logo {
+        width: 175px;
+    }
+}
+
+@media (max-width: 768px){
+    .Footer {
+        height: auto;
+    }
+    .Footer .main {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .Footer .main .box-contatos {
+        margin-bottom: 50px;
+    }
+    .Footer .main .box-contatos .box-redes{
+        order: 4;
+        justify-content: center;
+    }
+    .Footer .main .box-contatos .contatos {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        text-align: center;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 20px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 13px;
+    }
+    .Footer .cr {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px){
+    .Footer .main .box-contatos {
+        width: 70%;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 16px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 11px;
+    }
+    .Footer .cr {
+        width: 75%;
+    }
+}
+
+@media (max-width: 450px){
+    .Footer .main .box-logo {
+        width: 125px;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 14px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 370px){
+    .Footer .main .box-logo {
+        width: 100px;
+    }
+    .Footer .main .box-contatos .contatos h3 {
+        font-size: 13px;
+    }
+    .Footer .main .box-contatos .contatos p {
+        font-size: 10px;
+    }
+    .Footer .main .box-contatos .box-redes .btn-redes {
+        width: 15px;
+        height: 15px;
+    }
+    .Footer .cr {
+        width: 80%;
+    }
+}

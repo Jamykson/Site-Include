@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Montserrat:wght@600;800&display=swap');
+
+.Servicos {
+    background-color: #003057;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Servicos .titulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    color: #F2B32B;
+    margin-left: 100px;
+}
+
+.Servicos .box-serv{
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Servicos .box-serv .servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 290px;
+    border: 2px solid #FFFFFF;
+    border-radius: 35px;
+    padding: 35px;
+}
+
+.Servicos .box-serv .servico:hover {
+    height: 300px;
+    border-bottom: 10px solid #F2B32B;
+}
+
+.Servicos .box-serv .servico .fotoServ{
+    width: 30%;
+}
+
+.Servicos .box-serv .servico .fotoServ img{
+    width: 100%;
+    height: 100%;
+}
+
+.Servicos .box-serv .servico .tituloServ{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #F2B32B;
+    text-align: center;
+    inline-size: min-content;
+}
+
+.Servicos .box-serv .servico .descServ{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media(max-width: 1200px) {
+    .Servicos {
+        height: 450px;
+    }
+    .Servicos .box-serv {
+        gap: 75px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .Servicos .titulo {
+        font-size: 24px;
+    }
+    .Servicos .box-serv {
+        gap: 50px;
+        height: 250px;
+    }
+    .Servicos .box-serv .servico {
+        width: 250px;
+        height: 240px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .Servicos .box-serv .servico:hover {
+        height: 246px;
+        border-bottom: 8px solid #F2B32B;
+    }
+    .Servicos .box-serv .servico .tituloServ {
+        font-size: 14px;
+    }
+    .Servicos .box-serv .servico .descServ {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .Servicos {
+        height: 400px;
+    }
+    .Servicos .titulo {
+        margin-left: 75px;
+    }
+    .Servicos .box-serv {
+        gap: 40px;
+    }
+}
+
+@media(max-width: 900px) {
+    .Servicos {
+        height: 375px;
+        border-radius: 40px;
+    }
+    .Servicos .titulo {
+        font-size: 22px;
+    }
+    .Servicos .box-serv {
+        gap: 30px;
+        height: 220px;
+    }
+    .Servicos .box-serv .servico {
+        width: 220px;
+        height: 210px;
+        border-radius: 25px;
+        padding: 15px;
+    }
+    .Servicos .box-serv .servico .tituloServ {
+        font-size: 12px;
+    }
+    .Servicos .box-serv .servico .descServ {
+        font-size: 11px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .Servicos {
+        height: auto;
+        padding: 50px 0;
+        border-radius: 30px;
+    }
+    .Servicos .box-serv {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .Servicos .titulo {
+        font-size: 20px;
+    }
+    .Servicos .box-serv .servico {
+        width: 40vw;
+        height: 35vw;
+        padding: 20px;
+    }
+    .Servicos .box-serv .servico:hover {
+        height: calc(35vw + 6px);;
+    }
+    .Servicos .box-serv .servico .tituloServ {
+        font-size: 15px;
+    }
+    .Servicos .box-serv .servico .descServ {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 665px) {
+    .Servicos .box-serv .servico {
+        padding: 15px;
+    }
+    .Servicos .box-serv .servico .tituloServ {
+        font-size: 13px;
+    }
+    .Servicos .box-serv .servico .descServ {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 665px) {
+    .Servicos .titulo {
+        font-size: 18px;
+        margin-left: 40px;
+    }
+    .Servicos .box-serv .servico .tituloServ {
+        font-size: 11px;
+    }
+    .Servicos .box-serv .servico .descServ {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .Servicos {
+        padding: 30px 0;
+        border-radius: 20px;
+    }
+    .Servicos .titulo {
+        font-size: 16px;
+    }
+    .Servicos .box-serv .servico {
+        width: 50vw;
+        height: 45vw;
+        border-radius: 15px;
+    }
+    .Servicos .box-serv .servico:hover {
+        height: calc(45vw + 6px);
+    }
+}
+
+@media(max-width: 370px) {
+    .Servicos .titulo {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+    .Servicos .box-serv .servico {
+        width: 60vw;
+        height: 50vw;
+    }
+    .Servicos .box-serv .servico:hover {
+        height: calc(50vw + 6px);
+    }
+}
