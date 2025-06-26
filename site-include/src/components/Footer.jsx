@@ -16,7 +16,7 @@ export default props => {
             </div>
             <div className='box-contatos'>
                 <div className='box-redes'>
-                    <a className="btn-redes" href="https://wa.me/5584987188553/"><img src={imgWhats}/></a>
+                    <a className="btn-redes" href="https://wa.me/5584994336511/"><img src={imgWhats}/></a>
                     <a className="btn-redes" href="https://www.instagram.com/engenhariainclude/"><img src={imgInsta}/></a>
                     <a className="btn-redes" href="https://www.linkedin.com/company/engenhariainclude"><img src={imgLinkedin}/></a>
                 </div>
@@ -29,7 +29,7 @@ export default props => {
                 </div>
                 <div className="contatos">
                     <h3>Contato</h3>
-                    <p>(84) 98718-8553</p>
+                    <p>(84) 99433-6511</p>
                 </div>
                 <div className="contatos">
                     <h3>E-mail</h3>
