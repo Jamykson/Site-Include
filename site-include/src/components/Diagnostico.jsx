@@ -72,7 +72,7 @@ const Diagnostico = () => {
       </div>
 
       {/*Formulário*/}
-      <div className="form-container">
+      <div className="form-container" id='formulario'>
         <h2>Solicite um contato da nossa equipe</h2>
         <form className="diagnostico-form" onSubmit={handleSubmit}>
           <div className="form-group">

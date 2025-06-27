@@ -42,7 +42,7 @@ export default props => {
                         <h1><span>Desenvolvemos </span> o futuro hoje!</h1>
                     </div>
                     <Link
-                        to="orcamento"
+                        to="formulario"
                         spy={true}
                         smooth={true}
                         offset={-120}
