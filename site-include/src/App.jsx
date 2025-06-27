@@ -9,6 +9,7 @@ import Diagnostico from  './components/Diagnostico'
 import Footer from  './components/Footer'
 import Home from  './components/Home'
 import Portifolio from './components/Portifolio'
+import NossosValores from './components/NossosValores'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Dados />
       <QuemSomos/>
       <Servicos/>
+      <NossosValores />
       <Diagnostico/>
       <Footer/>
     </div>
