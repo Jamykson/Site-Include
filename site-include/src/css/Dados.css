@@ -1,0 +1,37 @@
+.dados-section {
+    padding: 0px 5vw 0px 5vw;
+    margin: 9vw 0px 7vw 0px;
+    display: flex;
+    justify-content : space-between;
+    /* gap: 7vw; */
+}
+
+.dados {
+    background-color: #003057;
+    color: #F2B32B;
+    padding: 3.5vw;
+    border-radius: 1vw;
+    text-align: center;
+    min-width: 28vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dados-titulo {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.dados-texto {
+    margin-top: 2vw;
+    font-size: 3.5vw;
+    font-weight: 900;
+}
+
+@media (max-width: 767px) {
+    .dados-titulo {
+        font-size: 3vw;
+    }
+    .dados-texto {
+        font-size: 4vw;
+    }
+}
