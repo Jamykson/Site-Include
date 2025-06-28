@@ -6,7 +6,7 @@ import { IoIosRocket } from "react-icons/io";
 
 export default props => {
     return (
-        <section className='valores-section' id="">
+        <section className='valores-section' id="valores">
             <p className='valores-titulo'>Conheça os nossos valores</p>
             <div className='card-section'>
                 <div className="flip-card">
@@ -60,7 +60,7 @@ export default props => {
                             <p>Ser Alcateia</p>
                         </div>
                         <div className="flip-card-back">
-                            <p>Temos uma cultura sólida e valorizamos quem a mantém viva. Trabalhamos em equipe e também valorizamos momentos de diversão juntos.</p>
+                            <p>Temos uma cultura sólida e valorizamos quem a mantém viva. Trabalhamos em equipe e também valorizamos momentos de diversão juntos</p>
                         </div>
                     </div>
                 </div>

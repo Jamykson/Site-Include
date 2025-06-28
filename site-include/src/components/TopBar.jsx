@@ -56,12 +56,12 @@ export default  props => {
                        
                         <li>
                             <Link 
-                                to="diagnostico" 
+                                to="valores" 
                                 spy={true} 
                                 smooth={true} 
                                 offset={-200} 
                                 duration={500}
-                            >DIAGNÓSTICO</Link>
+                            >NOSSOS VALORES</Link>
                         </li>
                         <li>
                             <Link 
