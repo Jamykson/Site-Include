@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.QuemPodemosAjudar {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin: 4vw 0vw 10vw 0vw;
+    padding: 0vw 5vw 0vw 5vw;
+}
+
+.titulo-ajuda {
+    color: #003057;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.podemos-ajudar {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 2vw; */
+}
+
+/* .itens-ajuda {
+    display: flex;
+    flex-direction: column;
+} */
+
+.imagem-ajuda {
+    height: 70%;
+    width: 70%;
+}
+
+.div-junior {
+    height: 200px;
+    width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.div-junior:hover {
+    transform: translateY(-8px);
+    /* box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); */
+}
+
+.imagem-ajuda-junior {
+    padding-top: 10px;
+    height: 70%;
+    width: 70%;
+    /* object-fit: contain; */
+}
+
+.descricao-ajuda {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #003057;
+    font-family: 'Montserrat', sans-serif;
+}

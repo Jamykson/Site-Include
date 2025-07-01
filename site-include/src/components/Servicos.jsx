@@ -1,17 +1,37 @@
 import '../css/Servicos.css'
-import React from 'react';
+import { useState } from 'react';
 
 import img1 from '../assets/imgServProgramacao.svg'
 import img2 from '../assets/imgServWifi.svg'
 import img3 from '../assets/imgServAutomacao.svg'
 
-export default  props => {
-    return( 
+export default props => {
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const toggleItem = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+    const listaServicos = [
+        {
+            titulo: "Desenvolvimento web/mobile",
+            descricao: "Softwares personalizados para dispositivos de acordo com as suas necessidades."
+        },
+        {
+            titulo: "Manutenção de Sistemas",
+            descricao: "Consultoria e soluções para melhorar o desempenho e a experiência de sistemas web e landing pages."
+        },
+        {
+            titulo: "Automação residencial",
+            descricao: "Projetos de automação para facilitar tarefas diárias, otimizando seu tempo."
+        }
+    ];
+
+    return (
         <section className='Servicos' id="servicos">
             <div className="titulo">
                 <h1>Nossos serviços</h1>
             </div>
-            <div className="box-serv">
+            {/* <div className="box-serv">
                 <div className="servico">
                     <div className='fotoServ'>
                         <img src={img1}/>
@@ -55,6 +75,22 @@ export default  props => {
                         </p>
                     </div>
                 </div>
+            </div> */}
+            <div className="box-serv">
+                {listaServicos.map((servico, index) => {
+                    const isActive = activeIndex === index;
+                    return (
+                        <div className="servico" key={index}>
+                            <div className="servico-header" onClick={() => toggleItem(index)}>
+                                <h3 className="tituloServ">{servico.titulo}</h3>
+                                <span className="toggleIcon">{isActive ? '×' : '+'}</span>
+                            </div>
+                            <div className={`descServ ${isActive ? 'active' : ''}`}>
+                                <p>{servico.descricao}</p>
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
         </section>
     );

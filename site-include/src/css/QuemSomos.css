@@ -5,7 +5,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
     height: 350px;
     padding: 0 5em;
     margin: 100px 0;
@@ -13,6 +13,7 @@
 
 .QuemSomos .box-img{
     width: 350px;
+    /* padding-bottom: 10px; */
 }
 
 .QuemSomos .box-img img{
@@ -24,7 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 45vw;
+    width: 46vw;
 }
 
 .QuemSomos .content .titulo{
@@ -40,6 +41,17 @@
     line-height: 1.8;
 }
 
+.botao-quem-somos {
+    margin-top: 20px;
+    background-color: #F2B32B;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    color: #003057;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 @media(max-width: 1200px) {
     .QuemSomos {

@@ -2,9 +2,9 @@ import '../css/Home.css';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll'
 import img from '../assets/logoB.png'
-import imgC1 from '../assets/IMG-20250329-WA0067 (1).jpg'
-import imgC2 from '../assets/imgCarrosel2.jpg'
-import imgC3 from '../assets/imgCarrosel3.jpg'
+import imgC1 from '../assets/imagem1.jpg'
+import imgC2 from '../assets/imagem2.jpg'
+import imgC3 from '../assets/imagem3.jpg'
 import Footer from './Footer';
 
 export default props => {
@@ -39,7 +39,8 @@ export default props => {
                 <div className='t-home'>
                     <div className='texto'>
                         <p>Bem-vindos a include,</p>
-                        <h1><span>Desenvolvemos </span> o futuro hoje!</h1>
+                        <h1><span>Inovação </span>que gera</h1>
+                        <h1><span>resultados reais</span></h1>
                     </div>
                     <Link
                         to="formulario"
@@ -65,14 +66,14 @@ export default props => {
                     </div>
 
                     <div className='e-1'></div>
-                    <div className='e-2'></div>
-                    <div className='e-3'></div>
+                    {/* <div className='e-2'></div> */}
+                    {/* <div className='e-3'></div> */}
                 </div>
             </div>
             <div className="bolls">
-                <div className={`boll ${selectedIndex === 0 ? 'selected' : ''}`}></div>
-                <div className={`boll ${selectedIndex === 1 ? 'selected' : ''}`}></div>
-                <div className={`boll ${selectedIndex === 2 ? 'selected' : ''}`}></div>
+                <div className={`boll ${selectedIndex === 0 ? 'selected' : ''}`} onClick={() => setSelectedIndex(0)}></div>
+                <div className={`boll ${selectedIndex === 1 ? 'selected' : ''}`} onClick={() => setSelectedIndex(1)}></div>
+                <div className={`boll ${selectedIndex === 2 ? 'selected' : ''}`} onClick={() => setSelectedIndex(2)}></div>
             </div>
         </section >
     )

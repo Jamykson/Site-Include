@@ -10,6 +10,7 @@ import Footer from  './components/Footer'
 import Home from  './components/Home'
 import Portifolio from './components/Portifolio'
 import NossosValores from './components/NossosValores'
+import QuemPodemosAjudar from './components/QuemPodemosAjudar'
 
 function App() {
   
@@ -17,8 +18,9 @@ function App() {
     <div className='App'>
       <TopBar/>
       <Home/>
-      <Dados />
       <QuemSomos/>
+      <Dados />
+      <QuemPodemosAjudar />
       <Servicos/>
       <NossosValores />
       <Diagnostico/>

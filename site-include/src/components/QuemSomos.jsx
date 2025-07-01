@@ -1,7 +1,7 @@
 import '../css/QuemSomos.css'
 import React from 'react';
 
-import FotoInclude from '../assets/FotoMembrosInclude.svg'
+import FotoInclude from '../assets/foto-em-grupo-1.png'
 
 export default  props => {
     return( 
@@ -21,9 +21,10 @@ export default  props => {
                     dedicados à promoção da vivência empresarial 
                     aos estudantes dos cursos de Ciências e 
                     Tecnologia, Engenharia da Computação, 
-                    Engenharia Mecatrônica e Engenharia de
-                    Telecomunicações
+                    Engenharia Mecatrônica, Engenharia de
+                    Telecomunicações e Tecnologia da Informação
                     </p>
+                    <a href="https://www.instagram.com/engenhariainclude/"><button className='botao-quem-somos'> Saiba Mais </button></a>
                 </div>
             </div>
         </section>

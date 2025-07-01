@@ -25,7 +25,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 25px;
-    padding-left: 90px;
+    padding-left: 50px;
 }
 
 .Home .main .t-home .btn{
@@ -44,16 +44,16 @@
 }
 
 .Home .main .texto p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .Home .main .texto h1{
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 50;
 }
 
 .Home .main .texto h1 span{
-    font-weight: 800;
+    font-weight: 700;
     color: #F2B32B;
 }
 
@@ -100,7 +100,7 @@
 .Home .main .carrosel .e-1{
     width: 0;
     height: 0;
-    border-left: 15vw solid #003057;
+    border-left: 5vw solid #003057;
     border-top: 15vw solid transparent;
     border-bottom: 15vw solid transparent;
     position: absolute;
@@ -154,6 +154,7 @@
 .Home .bolls{
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 
 .Home .bolls .boll{
