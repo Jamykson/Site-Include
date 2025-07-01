@@ -53,51 +53,6 @@ export default props => {
             <div className="titulo">
                 <p>Nossos serviços</p>
             </div>
-            {/* <div className="box-serv">
-                <div className="servico">
-                    <div className='fotoServ'>
-                        <img src={img1}/>
-                    </div>
-                    <div className='tituloServ'>
-                        <h3>Desenvolvimento web/mobile</h3>
-                    </div>
-                    <div className='descServ'>
-                        <p>Softwares personalizados para dispositivos 
-                            de acordo com as suas necessidades.
-                        </p>
-                    </div>
-                </div>
-                <div className="servico">
-                    <div className='fotoServ'>
-                        <img src={img3}/>
-                    </div>
-                    <div className='tituloServ'>
-                        <h3>Manutenção de Sistemas</h3>
-                    </div>
-                    <div className='descServ'>
-                        <p>
-                            Consultoria e soluções para 
-                            melhorar o desempenho e a 
-                            experiência de sistemas web e landing pages.
-                        </p>
-                    </div>
-                </div>
-                <div className="servico">
-                    <div className='fotoServ'>
-                        <img src={img3}/>
-                    </div>
-                    <div className='tituloServ'>
-                        <h3>Automoção residencial</h3>
-                    </div>
-                    <div className='descServ'>
-                        <p>
-                            Projetos de automação para 
-                            facilitar tarefas diárias, 
-                            otimizando seu tempo.
-                        </p>
-                    </div>
-                </div>
-            </div> */}
             <div className="box-serv">
                 {listaServicos.map((servico, index) => (
                     <div className="servico" key={index}>

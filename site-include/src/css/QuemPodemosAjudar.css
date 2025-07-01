@@ -5,7 +5,7 @@
     flex-direction: column;
     /* justify-content: center; */
     text-align: center;
-    margin: 4vw 0vw 10vw 0vw;
+    margin: 4vw 0vw 14vw 0vw;
     padding: 0vw 5vw 0vw 5vw;
 }
 
@@ -21,7 +21,7 @@
     text-align: center;
     margin-top: 50px;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* gap: 2vw; */
 }
 
@@ -36,7 +36,8 @@
 }
 
 .div-junior {
-    height: 200px;
+    height: 13vw;
+    min-height: 80px;
     width: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
@@ -56,14 +57,26 @@
 
 .descricao-ajuda {
     font-weight: bold;
-    margin-top: 10px;
-    font-size: 22px;
+    margin-top: 30px;
+    font-size: 2rem;
     color: #003057;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1140px) {
+    .descricao-ajuda {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 767px) {
     .titulo-ajuda {
         font-size: 27px;
+    }
+    .descricao-ajuda {
+        font-size: 1rem;
+    }
+    .QuemPodemosAjudar {
+        margin-bottom: 130px;
     }
 }
