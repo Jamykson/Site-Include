@@ -13,29 +13,29 @@
     padding: 40px 20px;
 }
 
-.Diagnostico .texto{
+.Diagnostico .texto {
     width: 60%;
     text-align: center;
 }
 
-.Diagnostico .texto span{
+.Diagnostico .texto span {
     font-size: 40px;
     font-weight: 800;
 }
 
-.Diagnostico .texto h1{
+.Diagnostico .texto h1 {
     font-size: 30px;
     font-weight: 400;
 }
 
-.Diagnostico .box-consultor{
+.Diagnostico .box-consultor {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 25px;
 }
 
-.Diagnostico .box-consultor .btn{
+.Diagnostico .box-consultor .btn {
     color: #F2B32B;
     background-color: #003057;
     font-size: 20px;
@@ -44,6 +44,11 @@
     border: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    transition: color 0.5s ease;
+}
+
+.Diagnostico .box-consultor .btn:hover {
+    color: #f1f1f1;
 }
 
 /* Estilização do formulário */
@@ -112,12 +117,15 @@
     .Diagnostico {
         height: auto;
     }
+
     .Diagnostico .texto h1 {
         font-size: 28px;
     }
+
     .Diagnostico .texto span {
         font-size: 38px;
     }
+
     .Diagnostico .box-consultor .btn {
         font-size: 18px;
     }
@@ -127,15 +135,19 @@
     .Diagnostico {
         height: auto;
     }
+
     .Diagnostico .texto h1 {
         font-size: 26px;
     }
+
     .Diagnostico .texto span {
         font-size: 36px;
     }
+
     .Diagnostico .box-consultor {
         margin-top: 20px;
     }
+
     .Diagnostico .box-consultor .btn {
         font-size: 16px;
     }
@@ -145,12 +157,15 @@
     .Diagnostico .texto {
         width: 70%;
     }
+
     .Diagnostico .texto h1 {
         font-size: 24px;
     }
+
     .Diagnostico .texto span {
         font-size: 34px;
     }
+
     .Diagnostico .box-consultor .btn {
         font-size: 14px;
     }
@@ -160,15 +175,19 @@
     .Diagnostico {
         height: auto;
     }
+
     .Diagnostico .texto {
         width: 60%;
     }
+
     .Diagnostico .texto h1 {
         font-size: 22px;
     }
+
     .Diagnostico .texto span {
         font-size: 32px;
     }
+
     .form-container {
         width: 90%;
     }
@@ -178,12 +197,15 @@
     .Diagnostico .texto h1 {
         font-size: 18px;
     }
+
     .Diagnostico .texto span {
         font-size: 27px;
     }
+
     .Diagnostico .box-consultor .btn {
         font-size: 11px;
     }
+
     .Diagnostico .box-consultor .btn {
         padding: 6px 20px;
     }
@@ -193,9 +215,11 @@
     .Diagnostico .texto h1 {
         font-size: 15px;
     }
+
     .Diagnostico .texto span {
         font-size: 22px;
     }
+
     .Diagnostico .box-consultor .btn {
         font-size: 10px;
     }

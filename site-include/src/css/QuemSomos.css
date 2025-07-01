@@ -48,9 +48,14 @@
     padding: 10px 30px 10px 30px;
     border-radius: 15px;
     color: #003057;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.botao-quem-somos:hover {
+    color: #f1f1f1;
 }
 
 @media(max-width: 1200px) {

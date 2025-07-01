@@ -256,51 +256,85 @@
     }
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;800&family=Montserrat:wght@600;800;900&display=swap');
+
+
+.Servicos {
+    margin: 0px 5vw 0px 5vw;
+    padding: 4vw 5vw 2vw 5vw;
+    border-radius: 50px;
+    background-color: #003057;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .box-serv {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
 }
 
 .servico {
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 1rem;
-  background-color: #f9f9f9;
+    border-bottom: 1px solid #F2B32B;
+    /* border-radius: 12px; */
+    padding: 1rem;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    /* background-color: #f9f9f9; */
+}
+
+.titulo {
+    color: #F2B32B;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 .servico-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
 .tituloServ {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.1rem;
-  color: #003057;
-  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #F2B32B;
+    margin: 0;
 }
 
 .toggleIcon {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #003057;
-  user-select: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F2B32B;
+    user-select: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.toggleIcon.rotated {
+    transform: rotate(45deg);
 }
 
 .descServ {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.2s ease-in-out, opacity 0.15s ease-in-out;
+    font-size: 18px;
+    color: #ccc;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+
 }
 
 .descServ.active {
-  max-height: 300px; /* valor suficientemente grande */
-  opacity: 1;
-  margin-top: 0.75rem;
+    max-height: 300px;
+    /* valor suficientemente grande */
+    opacity: 1;
+    margin-top: 0.75rem;
 }

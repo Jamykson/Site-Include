@@ -68,7 +68,7 @@ const Diagnostico = () => {
         <h1><span>gratuito </span>do seu site!</h1>
       </div>
       <div className="box-consultor">
-        <button className="btn">Fale com nosso consultor</button>
+        <a href="https://wa.me/5584994336511/"><button className="btn">Fale com nosso consultor</button></a>
       </div>
 
       {/*Formulário*/}

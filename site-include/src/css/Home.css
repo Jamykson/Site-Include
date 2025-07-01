@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-.Home{
+.Home {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     gap: 20px;
 }
 
-.Home .main{
+.Home .main {
     color: #F1F1F1;
     width: 90vw;
     height: 30vw;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.Home .main .t-home{
+.Home .main .t-home {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     padding-left: 50px;
 }
 
-.Home .main .t-home .btn{
+.Home .main .t-home .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #003057;
@@ -37,27 +37,33 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    transition: color 0.5s ease;
 }
 
-.Home .main .texto{
+.Home .main .t-home .btn:hover {
+    /* background-color: #003057; */
+    color: #F1F1F1;
+}
+
+.Home .main .texto {
     font-family: 'Montserrat', sans-serif;
 }
 
-.Home .main .texto p{
+.Home .main .texto p {
     font-size: 18px;
 }
 
-.Home .main .texto h1{
+.Home .main .texto h1 {
     font-size: 46px;
     font-weight: 50;
 }
 
-.Home .main .texto h1 span{
+.Home .main .texto h1 span {
     font-weight: 700;
     color: #F2B32B;
 }
 
-.Home .main .carrosel{
+.Home .main .carrosel {
     width: 60%;
     height: 30vw;
     position: relative;
@@ -65,7 +71,7 @@
     background-color: #F2B32B;
 }
 
-.Home .main .carrosel .logo .b-1{
+.Home .main .carrosel .logo .b-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,17 +84,17 @@
     z-index: 10;
 }
 
-.Home .main .carrosel .logo .b-1 div{
+.Home .main .carrosel .logo .b-1 div {
     width: 45px;
 }
 
-.Home .main .carrosel .logo .b-1 div img{
+.Home .main .carrosel .logo .b-1 div img {
     width: 100%;
     height: 100%;
     margin-left: 10px;
 }
 
-.Home .main .carrosel .logo .b-2{
+.Home .main .carrosel .logo .b-2 {
     border-left: 45px solid #2596be;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
@@ -97,7 +103,7 @@
     left: calc(15vw + 15px);
 }
 
-.Home .main .carrosel .e-1{
+.Home .main .carrosel .e-1 {
     width: 0;
     height: 0;
     border-left: 5vw solid #003057;
@@ -108,7 +114,7 @@
     left: 0;
 }
 
-.Home .main .carrosel .e-2{
+.Home .main .carrosel .e-2 {
     width: 0;
     height: 0;
     border-right: 13vw solid #003057;
@@ -119,7 +125,7 @@
     right: 0;
 }
 
-.Home .main .carrosel .e-3{
+.Home .main .carrosel .e-3 {
     width: 0;
     height: 0;
     border-right: 13vw solid #003057;
@@ -130,34 +136,34 @@
     right: 0;
 }
 
-.Home .main .carrosel .slides{
+.Home .main .carrosel .slides {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-.Home .main .carrosel .slides .slide{
+.Home .main .carrosel .slides .slide {
     width: 100%;
     display: none;
 }
 
-.Home .main .carrosel .slides .slide.on{
+.Home .main .carrosel .slides .slide.on {
     display: block;
 }
 
-.Home .main .carrosel .slides .slide img{
+.Home .main .carrosel .slides .slide img {
     width: 100%;
     height: 100%;
     border-radius: 0 50px 50px 0;
 }
 
-.Home .bolls{
+.Home .bolls {
     display: flex;
     gap: 20px;
     cursor: pointer;
 }
 
-.Home .bolls .boll{
+.Home .bolls .boll {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -165,7 +171,7 @@
     transition: 1s;
 }
 
-.Home .bolls .boll.selected{
+.Home .bolls .boll.selected {
     background-color: #F2B32B;
 }
 
@@ -173,6 +179,7 @@
     .Home .main .texto h1 {
         font-size: 48px;
     }
+
     .Home .main .t-home {
         padding-left: 80px;
         width: 47%;
@@ -183,20 +190,25 @@
     .Home .main .t-home {
         padding-left: 70px;
     }
+
     .Home .main .texto p {
         font-size: 18px;
     }
+
     .Home .main .texto h1 {
         font-size: 46px;
     }
+
     .Home .main .t-home .btn {
         font-size: 20px;
     }
+
     .Home .main .carrosel .logo .b-1 {
         height: 70px;
         width: 110px;
         top: calc(15vw - 35px);
     }
+
     .Home .main .carrosel .logo .b-2 {
         border-left: 40px solid #2596be;
         border-top: 35px solid transparent;
@@ -211,35 +223,44 @@
     .Home {
         gap: 15px;
     }
+
     .Home .bolls .boll {
         width: 10px;
         height: 10px;
     }
+
     .Home .main .t-home {
         padding-left: 55px;
     }
+
     .Home .main .texto h1 {
         font-size: 42px;
     }
+
     .Home .main .texto p {
         font-size: 16px;
     }
+
     .Home .main .t-home .btn {
         font-size: 18px;
         padding: 12px 45px;
-    }   
+    }
+
     .Home .main .carrosel .logo .b-1 {
         height: 60px;
         width: 100px;
         top: calc(15vw - 30px);
         left: calc(15vw - 95px);
     }
+
     .Home .main .carrosel .logo .b-1 div {
         width: 35px;
     }
+
     .Home .main .carrosel .logo .b-1 div img {
         margin-left: 8px;
     }
+
     .Home .main .carrosel .logo .b-2 {
         border-left: 35px solid #2596be;
         border-top: 30px solid transparent;
@@ -253,22 +274,27 @@
     .Home .main .t-home {
         padding-left: 45px;
     }
+
     .Home .main .texto p {
         font-size: 14px;
     }
+
     .Home .main .texto h1 {
         font-size: 39px;
     }
+
     .Home .main .t-home .btn {
         font-size: 16px;
         padding: 10px 40px;
     }
+
     .Home .main .carrosel .logo .b-1 {
         height: 50px;
         width: 90px;
         top: calc(15vw - 25px);
         left: calc(15vw - 75px);
     }
+
     .Home .main .carrosel .logo .b-2 {
         border-left: 30px solid #2596be;
         border-top: 25px solid transparent;
@@ -276,6 +302,7 @@
         top: calc(15vw - 25px);
         left: calc(15vw + 15px);
     }
+
     .Home .main .carrosel .logo .b-1 div img {
         margin-left: 6px;
     }
@@ -285,27 +312,34 @@
     .Home .main {
         border-radius: 25px;
     }
+
     .Home .main .texto p {
         font-size: 13px;
     }
+
     .Home .main .texto h1 {
         font-size: 35px;
-    }   
+    }
+
     .Home .main .t-home .btn {
         font-size: 14px;
     }
+
     .Home .main .carrosel {
         border-radius: 0 25px 25px 0;
     }
+
     .Home .main .carrosel .logo .b-1 {
         height: 46px;
         width: 85px;
         top: calc(15vw - 23px);
         left: calc(15vw - 65px);
     }
+
     .Home .main .carrosel .logo .b-1 div {
         width: 28px;
     }
+
     .Home .main .carrosel .logo .b-2 {
         border-left: 25px solid #2596be;
         border-top: 23px solid transparent;
@@ -313,12 +347,15 @@
         top: calc(15vw - 23px);
         left: calc(15vw + 20px);
     }
+
     .Home .main .carrosel .e-2 {
         border-radius: 0 25px 0;
     }
+
     .Home .main .carrosel .e-3 {
         border-radius: 0 0 25px;
     }
+
     .Home .main .carrosel .slides .slide img {
         border-radius: 0 25px 25px 0;
     }
@@ -328,26 +365,32 @@
     .Home .main .texto h1 {
         font-size: 30px;
     }
+
     .Home .main .texto p {
         font-size: 12px;
     }
+
     .Home .main .t-home .btn {
         font-size: 13px;
         padding: 8px 30px;
     }
+
     .Home .bolls {
         gap: 15px;
     }
+
     .Home .bolls .boll {
         width: 7px;
         height: 7px;
     }
+
     .Home .main .carrosel .logo .b-1 {
         height: 40px;
         width: 75px;
         top: calc(15vw - 20px);
         left: calc(15vw - 60px);
     }
+
     .Home .main .carrosel .logo .b-2 {
         border-left: 22px solid #2596be;
         border-top: 20px solid transparent;
@@ -355,6 +398,7 @@
         top: calc(15vw - 20px);
         left: calc(15vw + 15px);
     }
+
     .Home .main .carrosel .logo .b-1 div {
         width: 25px;
     }
@@ -364,6 +408,7 @@
     .Home .main .texto h1 {
         font-size: 28px;
     }
+
     .Home .main .t-home .btn {
         font-size: 12px;
     }
@@ -376,30 +421,37 @@
         padding: 50px 15px;
         gap: 30px;
     }
+
     .Home .main .t-home {
         padding: 0;
         align-items: center;
     }
+
     .Home .main .texto {
         text-align: center;
     }
+
     .Home .main .texto h1 {
         font-size: 34px;
     }
+
     .Home .main .texto p {
         font-size: 16px;
     }
+
     .Home .main .carrosel {
         width: calc(90vw - 30px);
         height: 45vw;
     }
-    .Home .main .carrosel .logo, 
-    .Home .main .carrosel .e-1, 
-    .Home .main .carrosel .e-2, 
+
+    .Home .main .carrosel .logo,
+    .Home .main .carrosel .e-1,
+    .Home .main .carrosel .e-2,
     .Home .main .carrosel .e-3 {
         display: none;
     }
-    .Home .main .carrosel, 
+
+    .Home .main .carrosel,
     .Home .main .carrosel .slides .slide img {
         border-radius: 25px;
     }
@@ -412,29 +464,37 @@
 }
 
 @media(max-width: 450px) {
+
     .Home .main,
-    .Home .main .carrosel, 
+    .Home .main .carrosel,
     .Home .main .carrosel .slides .slide img {
         border-radius: 15px;
     }
+
     .Home .main .t-home {
         width: 65%;
     }
+
     .Home .main .texto h1 {
         font-size: 27px;
     }
+
     .Home .main .texto p {
         font-size: 13px;
     }
+
     .Home .main .t-home .btn {
         font-size: 11px;
     }
+
     .Home .main {
         padding: 30px 10px;
-    }    
+    }
+
     .Home .main .carrosel {
         width: calc(90vw - 20px);
     }
+
     .Home .bolls .boll {
         width: 5px;
         height: 5px;
@@ -445,14 +505,16 @@
     .Home .main .texto p {
         font-size: 11px;
     }
+
     .Home .main .texto h1 {
         font-size: 25px;
     }
+
     .Home .main .t-home {
         width: 75%;
     }
+
     .Home .main .t-home .btn {
         font-size: 10px;
     }
 }
-
