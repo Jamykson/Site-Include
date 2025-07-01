@@ -338,3 +338,22 @@
     opacity: 1;
     margin-top: 0.75rem;
 }
+
+@media (max-width:767px) {
+    .Servicos {
+        padding: 30px 30px 30px 30px;
+        border-radius: 25px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .tituloServ {
+        font-size: 22px;
+    }
+
+    .descServ {
+        font-size: 16px;
+    }
+}

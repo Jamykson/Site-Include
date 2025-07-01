@@ -11,12 +11,12 @@
     margin: 100px 0;
 }
 
-.QuemSomos .box-img{
+.QuemSomos .box-img {
     width: 350px;
     /* padding-bottom: 10px; */
 }
 
-.QuemSomos .box-img img{
+.QuemSomos .box-img img {
     width: 100%;
     height: 100%;
 }
@@ -28,13 +28,13 @@
     width: 46vw;
 }
 
-.QuemSomos .content .titulo{
+.QuemSomos .content .titulo {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #F2B32B;
     font-size: 26px;
 }
 
-.QuemSomos .content .descricao{
+.QuemSomos .content .descricao {
     font-family: 'Montserrat', sans-serif;
     color: #003057;
     font-size: 20px;
@@ -68,12 +68,15 @@
     .QuemSomos .box-img {
         width: 300px;
     }
+
     .QuemSomos .content {
         width: 60%;
     }
+
     .QuemSomos .content .descricao {
         font-size: 18px;
     }
+
     .QuemSomos .content .titulo {
         font-size: 24px;
     }
@@ -84,9 +87,11 @@
         padding: 0 4em;
         height: 300px;
     }
+
     .QuemSomos .box-img {
         width: 275px;
     }
+
     .QuemSomos .content .descricao {
         font-size: 16px;
     }
@@ -97,6 +102,7 @@
     .QuemSomos .content .titulo {
         font-size: 22px;
     }
+
     .QuemSomos .content .descricao {
         font-size: 14px;
     }
@@ -106,6 +112,7 @@
     .QuemSomos .box-img {
         width: 250px;
     }
+
     .QuemSomos .content .descricao {
         font-size: 13px;
     }
@@ -113,27 +120,37 @@
 
 @media(max-width: 768px) {
     .QuemSomos {
-        gap: 50px;
+        text-align: center;
+        gap: 30px;
         padding: 0 75px;
         flex-direction: column-reverse;
         align-items: center;
         margin: 35vw 0px 50vw 0px;
         /* height: 600px; */
     }
+
     .QuemSomos .content .titulo {
         font-size: 20px;
     }
+
     .QuemSomos .content {
+        margin-top: 50px;
         width: 100%;
-        gap: 40px;
+        gap: 0px;
     }
+
     .QuemSomos .box-img {
         width: 60vw;
     }
+
     .QuemSomos .content .descricao {
         text-align: center;
         padding: 0 2em;
         font-size: 15px;
+    }
+
+    .botao-quem-somos {
+        font-size: 12px;
     }
 }
 
@@ -141,18 +158,31 @@
     .QuemSomos {
         padding: 0 40px;
     }
+
     .QuemSomos .content .titulo {
         font-size: 18px;
     }
+
     .QuemSomos .content .descricao {
         font-size: 13px;
+    }
+
+    .botao-quem-somos {
+        font-size: 10px;
+        padding: 8px 18px 8px 18px;
     }
 }
 
 @media(max-width: 450px) {
+    .QuemSomos .content {
+        margin-top: 30px;
+        gap: 0px;
+    }
+
     .QuemSomos .content .titulo {
         font-size: 16px;
     }
+
     .QuemSomos .content .descricao {
         font-size: 11px;
     }
@@ -162,6 +192,7 @@
     .QuemSomos {
         padding: 0 25px;
     }
+
     .QuemSomos .content .titulo {
         font-size: 13px;
     }

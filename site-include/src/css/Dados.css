@@ -5,6 +5,7 @@
     background-color: #003057;
     justify-content: space-around;
     /* gap: 7vw; */
+    flex-wrap: wrap;
 }
 
 
@@ -35,10 +36,10 @@
 
 @media (max-width: 767px) {
     .dados-titulo {
-        font-size: 3vw;
+        font-size: 1rem;
     }
 
     .dados-texto {
-        font-size: 4vw;
+        font-size: 1.5rem;
     }
 }

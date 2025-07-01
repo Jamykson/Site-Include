@@ -26,8 +26,6 @@ function App() {
       <Diagnostico/>
       <Footer/>
     </div>
-
-    
   )
 }
 

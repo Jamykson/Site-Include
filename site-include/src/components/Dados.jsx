@@ -5,8 +5,8 @@ export default props => {
         <section className='dados-section' id="">
             <div className="dados">
                 <p className='texto-experiencia'>
-                    <span className='dados-texto'>10</span>
-                    <span className='dados-titulo'> anos</span>
+                    <span className='dados-texto'>10 anos</span>
+                    {/* <span className='dados-titulo'> </span> */}
                 </p>
                 <p className='dados-titulo'> de Experiência</p>
             </div>
