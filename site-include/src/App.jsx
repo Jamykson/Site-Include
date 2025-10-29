@@ -9,8 +9,11 @@ import Diagnostico from  './components/Diagnostico'
 import Footer from  './components/Footer'
 import Home from  './components/Home'
 import Portifolio from './components/Portifolio'
+import Projetos from './components/Projetos'
 import NossosValores from './components/NossosValores'
 import QuemPodemosAjudar from './components/QuemPodemosAjudar'
+
+
 
 function App() {
   
@@ -22,6 +25,7 @@ function App() {
       <Dados />
       <QuemPodemosAjudar />
       <Servicos/>
+      <Projetos />
       <NossosValores />
       <Diagnostico/>
       <Footer/>

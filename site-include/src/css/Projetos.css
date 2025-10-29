@@ -1,0 +1,75 @@
+/* Estilos para a seção .projetos-section */
+.projetos-section {
+  padding: 60px 20px;
+  background-color: #fdfdfd; /* Fundo claro, como na imagem de referência */
+  font-family: Arial, sans-serif; /* Mude para a fonte principal do seu site */
+}
+
+.projetos-section .container {
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+/* Cabeçalho da seção (título + estatísticas) */
+.projetos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Garante que quebre bem em telas pequenas */
+  gap: 20px;
+}
+
+.projetos-header .section-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+  position: relative;
+  padding-left: 70px; /* Espaço para o traço lateral */
+}
+
+/* O traço antes do título "Nossos trabalhos recentes" */
+.projetos-header .section-title::before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #333; /* Cor do traço */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Estilo das Estatísticas (100+ projetos, etc) */
+.projetos-stats {
+  display: flex;
+  gap: 30px; /* Espaço entre os números */
+}
+
+.stat-item {
+  text-align: left;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-item span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Grade onde os cards vão ficar */
+.projetos-grid {
+  display: grid;
+  /* Cria colunas responsivas: 
+     - Tenta criar colunas de no mínimo 320px.
+     - Em telas maiores, cria colunas de larguras iguais (1fr).
+  */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px; /* Espaço entre os cards */
+}

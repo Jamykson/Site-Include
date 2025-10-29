@@ -1,0 +1,66 @@
+/* Estilos para o .projeto-card */
+.projeto-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projeto-card .projeto-imagem {
+  width: 100%;
+  overflow: hidden;
+}
+
+.projeto-card .projeto-imagem img {
+  width: 100%;
+  height: auto;
+}
+
+/* Informações abaixo da imagem */
+.projeto-info {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projeto-info h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.projeto-info p {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0;
+}
+
+/* Botão de seta */
+.projeto-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  flex-shrink: 0; 
+}
+
+.projeto-link:hover {
+  background-color: #003366; 
+  color: #fff;
+}
