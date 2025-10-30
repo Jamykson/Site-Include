@@ -63,6 +63,17 @@ export default props => {
 
                     <li>
                         <Link
+                            to="projetos" 
+                            spy={true}
+                            smooth={true}
+                            offset={-window.innerHeight / 2 + 300}
+                            duration={500}
+                            onClick={fecharMenu}
+                        >PROJETOS</Link>
+                    </li>
+
+                    <li>
+                        <Link
                             to="valores"
                             spy={true}
                             smooth={true}
