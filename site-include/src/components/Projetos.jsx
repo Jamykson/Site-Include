@@ -1,6 +1,6 @@
 import React from 'react';
-import CardProjeto from './CardProjeto'; // Importa o novo componente de card
-import '../css/Projetos.css'; // Sobe para src/, depois desce para css/
+import CardProjeto from './CardProjeto'; // Importa o componente de card
+import '../css/Projetos.css'; 
 
 import imagemProjeto1 from '../assets/EficePrint.jpeg';
 import imagemProjeto2 from '../assets/LugaresPrint.jpeg';
