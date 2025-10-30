@@ -13,7 +13,7 @@ const projetosDados = [
     imagemUrl: imagemProjeto1,
     imagemAlt: 'Print do projeto Efice',
     titulo: 'Efice - Consultoria e Gestão',
-    categoria: 'Landing Page',
+    categoria: 'Landing Page/Sistema Web',
     link: 'https://eficeconsultoria.com.br/',
   },
   {
@@ -29,7 +29,7 @@ const projetosDados = [
     imagemUrl: imagemProjeto3,
     imagemAlt: 'Print do projeto Gamefic',
     titulo: 'Gameficação',
-    categoria: 'Landing Page',
+    categoria: 'Sistema Web',
     link: 'https://gamific-include.netlify.app/',
   },
 ];
@@ -42,14 +42,6 @@ function Projetos() {
         {/* Cabeçalho da Seção */}
         <div className="projetos-header"> 
           <h2 className="section-title">Nossos trabalhos recentes</h2>
-          
-          {/* Estatísticas */}
-          <div className="projetos-stats"> 
-            <div className="stat-item">
-              <strong>30+</strong>
-              <span>Projetos de dev</span>
-            </div>
-          </div>
         </div>
 
         {/* Grade de Projetos */}

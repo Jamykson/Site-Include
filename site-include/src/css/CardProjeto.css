@@ -27,7 +27,7 @@
   padding: 25px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .projeto-info h3 {
@@ -56,6 +56,11 @@
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
+  text-shadow: 
+    1px 0 0 currentColor,   /* Sombra para a direita */
+    -1px 0 0 currentColor,  /* Sombra para a esquerda */
+    0 1px 0 currentColor,   /* Sombra para baixo */
+    0 -1px 0 currentColor;  /* Sombra para cima */
   transition: background-color 0.3s ease, color 0.3s ease;
   flex-shrink: 0; 
 }
